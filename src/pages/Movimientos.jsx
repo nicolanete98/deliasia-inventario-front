@@ -5,7 +5,7 @@ import swal from 'sweetalert';
 import deliasiaAPI from '../api/deliasiaAPI';
 import { isAuth } from '../functions/isAuth';
 import { useDispatch } from 'react-redux';
-import { getEnvVariables } from '../helpers/getEnvvariable'
+import { getEnvVariables } from './helpers/getEnvvariable'
 import ReactDatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 export const Movimientos = () => {
